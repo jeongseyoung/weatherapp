@@ -27,7 +27,7 @@ async function getWeather(city) {
     }
     console.log(weather);
 }
-
+         
 async function display(getCity) {
     const weather = await getWeather(getCity);
         const {
