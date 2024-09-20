@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <!-- <div id="main">
+        <div id="google-map"></div>
+    </div> -->
+
+    <form class="weatherForm">
+      <input type="text" class="cityInput" placeholder="도시를 입력하세요." />
+      <button type="submit">확인</button>
+    </form>
+
+    <div class="card" style="display: none">
+      <!-- <h1 class="cityDisplay">서울</h1>
+      <p class="tempDisplay">28˚</p>
+      <p class="humidityDisplay">습도 : 80%</p>
+      <p class="descDisplay">약간 흐림</p>
+      <p class="weatherEmoji">🌥️</p>
+      <p class="errorDisplay">도시를 입력하세요.</p> -->
+    </div>
+    <script src="weather.js"></script>
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=getMap&libraries=maps,marker&v=beta"
+    ></script>
+  </body>
+</html>
