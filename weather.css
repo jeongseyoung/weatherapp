@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #google-map {
   width: 500px;
   height: 300px;
@@ -90,3 +91,9 @@ p {
   font-weight: bold;
   color: hsla(0, 0%, 0%, 0.6);
 }
+=======
+#google-map{
+    width: 500px;
+    height: 300px;   
+}
+>>>>>>> 74d18d9965c436cb44305ff977823a176972569d
