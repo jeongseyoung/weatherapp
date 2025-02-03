@@ -19,7 +19,7 @@ weatherForm.addEventListener("submit", (event) => {
     }
   } else displayError("도시를 입력하세요.");
 });
-
+   
 function displayError(message) {
   const errorDisplay = document.createElement("p");
   errorDisplay.textContent = message;
