@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 //weather API key
 //google map API key
-
+       
 //get latitude and longtitude
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
