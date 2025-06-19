@@ -10,7 +10,7 @@ const card = document.querySelector(".card");
 weatherForm.addEventListener("submit", (event) => {
   event.preventDefault(); //새로고침실행을 방지
   const getCity = cityInput.value;
-   
+      
   if (getCity) {
     try {
       display(getCity);
